@@ -1,0 +1,17 @@
+{
+  "title": "Rule of Thumb",
+  "not_found": "Oops!, Seguro que quieres ingresar aqui?",
+  "menu": {
+    "pastTrials": "Past Trials",
+    "howItWorks": "How It Works",
+    "logInSignUp": "Log In / Sign Up"
+  },
+  "voteBox":{
+    "whatsYourOpinion":"What’s your opinion on",
+    "moreInfo":"More information",
+    "whatsYourVerdict":"What’s Your Verdict?",
+    "vote":"Vote Now",
+    "voteAgain":"Vote Again"
+  },
+  "in": " in "
+}
