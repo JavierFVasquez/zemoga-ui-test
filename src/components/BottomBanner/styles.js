@@ -14,6 +14,14 @@ export const BottomBannerContainer = styled.nav`
   position: relative;
   .textcolor {
     color: ${({ theme }) => theme.text.secondary};
+    ${({ theme }) => theme.breakpoints.mobile} {
+      text-align: center;
+    }
+  }
+  ${({ theme }) => theme.breakpoints.mobile} {
+    height: 130px;
+    flex-direction: column;
+    justify-content: space-around;
   }
 `;
 export const SubmitNameButton = styled.button`

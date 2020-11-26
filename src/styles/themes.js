@@ -13,6 +13,9 @@ export const light = {
   },
   primaryTransparent: colors.yellowTransparent,
   secondaryTransparent: colors.blueTransparent,
+  breakpoints: {
+    mobile: "@media all and (max-width: 480px)",
+  },
 };
 
 export const Normalize = createGlobalStyle`

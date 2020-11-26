@@ -24,6 +24,9 @@ export const People = styled.div`
   row-gap: 40px;
   justify-items: stretch;
   align-items: stretch;
+  ${({ theme }) => theme.breakpoints.mobile} {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const SectionTitle = styled(Label)`

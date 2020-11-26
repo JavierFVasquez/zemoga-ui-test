@@ -1,6 +1,7 @@
 {
   "title": "Rule of Thumb",
-  "not_found": "Oops!, Seguro que quieres ingresar aqui?",
+  "not_found": "Oops!",
+  "loading": "Loading...",
   "menu": {
     "pastTrials": "Past Trials",
     "howItWorks": "How It Works",
@@ -13,5 +14,17 @@
     "vote":"Vote Now",
     "voteAgain":"Vote Again"
   },
-  "in": " in "
+  "in": " in ",
+  "votes": "Votes",
+  "closingIn": "CLOSING IN",
+  "days": "days",
+  "banner":{
+    "speakOutBeHeard" : "Speak out. Be heard.",
+    "beCounted" : "Be counted",
+    "description" : "Rule of Thumb is a crowd sourced court of public opinion where anyone and everyone can speak out and speak freely. It’s easy: You share your opinion, we analyze and put the data in a public report."
+  },
+  "bottomBanner":{
+    "text" : "Is there anyone else you would want us to add?",
+    "button" : "Submit a Name"
+  }
 }

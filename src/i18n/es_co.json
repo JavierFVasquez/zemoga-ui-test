@@ -1,6 +1,7 @@
 {
   "title": "Rule of Thumb",
-  "not_found": "Oops!, Seguro que quieres ingresar aqui?",
+  "not_found": "Oops!",
+  "loading": "Loading...",
   "menu": {
     "pastTrials": "Past Trials",
     "howItWorks": "How It Works",

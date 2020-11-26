@@ -10,11 +10,17 @@ const BottomBanner = () => {
   return (
     <BottomBannerContainer>
       <Background src={BackgroundImage} />
-      <Label size={30} className="textcolor" weight={300} lineHeight={25}>
+      <Label
+        size={30}
+        mobileSize={20}
+        className="textcolor"
+        weight={300}
+        lineHeight={25}
+      >
         {t("bottomBanner.text")}
       </Label>
       <SubmitNameButton>
-        <Label size={18} className="textcolor" align={"center"}>
+        <Label size={18} mobileSize={13} className="textcolor" align={"center"}>
           {t("bottomBanner.button")}
         </Label>
       </SubmitNameButton>

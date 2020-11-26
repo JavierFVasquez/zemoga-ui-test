@@ -26,6 +26,9 @@ export const LayoutContainer = styled.div`
 export const Title = styled.h1`
   color: white;
   font-family: "Lato", sans-serif;
+  ${({ theme }) => theme.breakpoints.mobile} {
+    font-size: 25px;
+  }
 `;
 export const Menu = styled.ul`
   display: flex;

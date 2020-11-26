@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "name": "Pope Francis",
+      "description":
+        "He’s talking tough on clergy sexual abuse, but is he just another papal pervert protector? (thumbs down) or a true pedophile punishing pontiff? (thumbs up)",
+      "wiki": "https://es.wikipedia.org/wiki/Francisco_(papa)",
+      "createdAt": "2020-10-25T21:27:51+00:00",
+      "closeDate": "2020-12-25T21:27:51+00:00",
+      "section": "Entertainment",
+      "image": "https://firebasestorage.googleapis.com/v0/b/jfvr-zemoga-test.appspot.com/o/pope.png?alt=media&token=8b3030da-4b2c-4463-9289-3490c2ce43be",
+      "pro": 64,
+      "against": 36
+    },
+    {
+      "id": 2,
+      "name": "Kanye West",
+      "description":
+        "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+      "wiki": "https://es.wikipedia.org/wiki/Francisco_(papa)",
+      "createdAt": "2020-10-25T21:27:51+00:00",
+      "closeDate": "2020-12-25T21:27:51+00:00",
+      "section": "Entertainment",
+      "image": "https://firebasestorage.googleapis.com/v0/b/jfvr-zemoga-test.appspot.com/o/Kanye.png?alt=media&token=98d54adf-2de0-4817-9410-c7c827db3781",
+      "pro": 64,
+      "against": 36
+    },
+    {
+      "id": 3,
+      "name": "Mark Zuckerberg",
+      "description":
+        "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+      "wiki": "https://es.wikipedia.org/wiki/Francisco_(papa)",
+      "createdAt": "2020-10-25T21:27:51+00:00",
+      "closeDate": "2020-12-25T21:27:51+00:00",
+      "section": "Bussines",
+      "image": "https://firebasestorage.googleapis.com/v0/b/jfvr-zemoga-test.appspot.com/o/Mark.png?alt=media&token=cec47f20-977f-40aa-8a41-060054dabef8",
+      "pro": 64,
+      "against": 36
+    },
+    {
+      "id": 4,
+      "name": "Cristina Fernández de Kirchner",
+      "description":
+        "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+      "wiki": "https://es.wikipedia.org/wiki/Francisco_(papa)",
+      "createdAt": "2020-10-25T21:27:51+00:00",
+      "closeDate": "2020-12-25T21:27:51+00:00",
+      "section": "Politics",
+      "image": "https://firebasestorage.googleapis.com/v0/b/jfvr-zemoga-test.appspot.com/o/Cristina.png?alt=media&token=c42c4aa8-175f-4f50-9f76-8c7b39f75796",
+      "pro": 64,
+      "against": 36
+    },
+    {
+      "id": 3,
+      "name": "Malala Yousafzai",
+      "description":
+        "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+      "wiki": "https://es.wikipedia.org/wiki/Francisco_(papa)",
+      "createdAt": "2020-10-25T21:27:51+00:00",
+      "closeDate": "2020-12-25T21:27:51+00:00",
+      "section": "Entertainment",
+      "image": "https://firebasestorage.googleapis.com/v0/b/jfvr-zemoga-test.appspot.com/o/Malala.png?alt=media&token=6f46080a-4ede-4e48-be3d-9ce258171b25",
+      "pro": 64,
+      "against": 36
+    }
+  ]

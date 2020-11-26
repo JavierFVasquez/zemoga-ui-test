@@ -19,14 +19,22 @@ const HeroVoteBox = ({ person }) => {
     <HeroVoteBoxContainer>
       <DescriptionContainer>
         <div>
-          <Label size={16} weight={"300"}>
+          <Label size={16} mobileSize={12} weight={"300"}>
             {t("voteBox.whatsYourOpinion")}
           </Label>
-          <Label size={60}>{`${person.name}?`}</Label>
+          <Label size={60} mobileSize={40}>{`${person.name}?`}</Label>
         </div>
-        <Label size={21} weight={"300"}>{`${person.description}`}</Label>
-        <Label size={14}>{t("voteBox.moreInfo")}</Label>
-        <Label size={20}>{t("voteBox.whatsYourVerdict")}</Label>
+        <Label
+          size={21}
+          mobileSize={15}
+          weight={"300"}
+        >{`${person.description}`}</Label>
+        <Label size={14} mobileSize={10}>
+          {t("voteBox.moreInfo")}
+        </Label>
+        <Label size={20} mobileSize={15}>
+          {t("voteBox.whatsYourVerdict")}
+        </Label>
       </DescriptionContainer>
       <VoteContainer>
         <VoteUp>

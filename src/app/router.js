@@ -8,6 +8,13 @@ class Router extends React.Component {
     return (
       <Switch>
         <Route exact path="/" component={App} />
+        <Route exact path="/pastTrials" component={() => <>PAST TRIALS</>} />
+        <Route exact path="/howItWorks" component={() => <>HOW IT WORKS</>} />
+        <Route
+          exact
+          path="/logInSignUp"
+          component={() => <>LOG IN / SIGN UP</>}
+        />
         <Route component={NotFound} />
       </Switch>
     );

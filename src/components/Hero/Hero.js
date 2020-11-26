@@ -13,6 +13,7 @@ import { useHistory } from "react-router-dom";
 import HeroVoteBox from "../HeroVoteBox/HeroVoteBox";
 import Chip from "../Chip/Chip";
 import Label from "../Globals/Label/Label";
+import moment from "moment";
 
 const Hero = ({ person }) => {
   const { t } = useTranslation();
@@ -21,6 +22,8 @@ const Hero = ({ person }) => {
   const handleRedirect = (to) => {
     history.push(to);
   };
+
+  const daysLeft = moment(person.closeDate).diff(moment(), "days");
 
   return (
     <HeroFather background={person.image}>
@@ -40,12 +43,14 @@ const Hero = ({ person }) => {
       </HeroContainer>
       <HeroFooter>
         <Left>
-          <Label size={13}>{t("closingIn")}</Label>
+          <Label size={13} mobileSize={10}>
+            {t("closingIn")}
+          </Label>
         </Left>
         <Chip />
         <Right>
-          <Label size={36} className="textcolor">
-            22
+          <Label size={36} mobileSize={25} className="textcolor">
+            {daysLeft}
             <span className="light"> {t("days")}</span>
           </Label>
         </Right>

@@ -5,10 +5,15 @@ export const HeroVoteBoxContainer = styled.div`
   width: 50%;
   max-width: 100%;
   min-width: 400px;
-  height: 800px;
+  height: 450px;
   flex-direction: column;
   overflow: hidden;
   margin-top: 55px;
+  justify-content: space-between;
+  ${({ theme }) => theme.breakpoints.mobile} {
+    min-width: 350px;
+    height: 400px;
+  }
 `;
 export const DescriptionContainer = styled.div`
   display: flex;
@@ -21,7 +26,6 @@ export const DescriptionContainer = styled.div`
 
 export const VoteContainer = styled.div`
   display: flex;
-  flex: 1;
   flex-direction: row;
 `;
 
@@ -32,6 +36,9 @@ const VoteButton = css`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  ${({ theme }) => theme.breakpoints.mobile} {
+    height: 65px;
+  }
 `;
 
 export const VoteUp = styled.button`
@@ -46,6 +53,10 @@ const VoteIcon = css`
   height: 35px;
   width: 35px;
   object-fit: contain;
+  ${({ theme }) => theme.breakpoints.mobile} {
+    height: 25px;
+    width: 25px;
+  }
 `;
 
 export const VoteUpIcon = styled.img`

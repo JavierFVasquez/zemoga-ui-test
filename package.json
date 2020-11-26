@@ -6,12 +6,18 @@
     "babel-jest": "^26.6.3",
     "enzyme-to-json": "^3.6.1",
     "i18next": "^19.8.4",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-i18next": "^11.7.3",
+    "react-redux": "^7.2.2",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "redux": "^4.0.5",
+    "redux-persist": "^6.0.0",
+    "reduxsauce": "^1.2.0",
     "styled-components": "^5.2.1"
   },
   "scripts": {
@@ -41,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/react": "^11.2.2",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.5",
     "eslint-config-airbnb": "18.2.1",

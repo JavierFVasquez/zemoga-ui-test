@@ -37,6 +37,9 @@ export const MenuItem = styled.li`
   font-size: 18px;
   font-family: "Lato", sans-serif;
   cursor: pointer;
+  ${({ theme }) => theme.breakpoints.mobile} {
+    font-size: 14px;
+  }
 `;
 export const Left = styled.div`
   height: 100%;

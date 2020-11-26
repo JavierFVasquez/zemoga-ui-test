@@ -14,4 +14,7 @@ export const StyledLabel = styled.p`
   .light {
     font-weight: 300;
   }
+  ${({ theme }) => theme.breakpoints.mobile} {
+    font-size: ${({ mobileSize }) => `${mobileSize}px` || "13px"};
+  }
 `;
